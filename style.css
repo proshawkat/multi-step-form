@@ -1,0 +1,80 @@
+.wizard-card .moving-tab {
+  display: none;
+}
+.wizard-card .tab-content {
+  min-height: 340px;
+  padding: 20px 15px;
+}
+.wizard-card .wizard-footer {
+  padding: 0 15px;
+  width: 100%;
+}
+.wizard-card .wizard-footer .pull-right{
+  width: 200px;
+  float: right;
+  text-align: right;
+}
+.wizard-card .nav-pills > li {
+  text-align: center;
+}
+.wizard-card .info-text {
+  text-align: center;
+  font-weight: 300;
+  margin: 10px 0 30px;
+}
+.wizard-card .btn-finish {
+  display: none;
+}
+.wizard-li-step{
+  background: #f1f0f0;
+  position: relative;
+  padding: 9px;
+}
+
+.wizard-li-step:before{
+  content: "";
+  position: absolute;
+  display: block;
+  border: 21px solid #f1f0f0;
+  border-left-color: #ffffff;
+  top: 0;
+  left: 0;
+}
+
+.wizard-li-step:after{
+  content: "";
+  position: absolute;
+  display: block;
+  border: 21px solid #ffffff;
+  border-left-color: #f1f0f0;
+  top: 0;
+  right: 0;
+}
+
+.wizard-li-step.active:before{
+  content: "";
+  position: absolute;
+  display: block;
+  border: 21px solid #ff5656;
+  border-left-color: #ffffff;
+  top: 0;
+  left: 0;
+}
+
+.wizard-li-step.active:after{
+  content: "";
+  position: absolute;
+  display: block;
+  border: 21px solid #ffffff;
+  border-left-color: #ff5656;
+  top: 0;
+  right: 0;
+}
+
+.wizard-li-step.active{
+  background: #ff5656;
+}
+
+.wizard-li-step.active a{
+  color: #ffffff;
+}
